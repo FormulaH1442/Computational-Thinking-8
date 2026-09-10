@@ -1,0 +1,6 @@
+print("My name is Henrik")
+print("I am from Seattle, WA")
+print("My family recently bought a rivian r2")
+print("now I want to learn about you!")
+name = input("What is your name?")
+print(f"Hello {name} and welcome to SAAS")
