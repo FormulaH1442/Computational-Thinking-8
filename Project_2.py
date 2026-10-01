@@ -35,7 +35,17 @@ elif answer1 == "Switzerland":
        print("Very  Beautiful there!")
     elif answer5 == "Zurich":
         print("Go skiing, it will be fun!")
+    else:
+        print("Please pick either Geneva or Zurich.")
 elif answer1 == "Italy":
     print("Andiamo!")
+    answer6 = input("Where in Italy do you want to go? Monza or Rome?")
+    if answer6 == "Monza":
+        print("Monza, the home to the fastest Formula One racetrack, the Temple of Speed! Forza Ferrari")
+    elif answer6 == "Rome":
+        print ("Some amazing history in Rome from the ancient times.")
+    else:
+        print("Please pick either Monza or Rome.")
 else: 
     print("Please pick either Spain, Germany, France,England, Switzerland, or Italy.")
+
