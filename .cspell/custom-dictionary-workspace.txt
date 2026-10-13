@@ -1,6 +1,7 @@
 # Custom Dictionary Words
 allons
 Andiamo
+aproach
 doggity
 doogity
 exitonclick
