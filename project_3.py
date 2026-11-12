@@ -61,4 +61,11 @@ elif answer4 == "par 5s" or answer4 == "Par 5s":
 else:
        print("Please pick either par 3,4, or 5")
 print("Alright, I think we have all the answer we need.")
-if driver > wood5 and driver > wood4 and driver > iron5 and driver > iron6 and driver > iron7 and driver
+if driver > wood5 and driver > wood4 and driver > iron5 and driver > iron6 and driver > iron7 and driver > iron8 and driver > iron9 and driver > PitchingWedge and driver > ApproachWedge and driver > wedge54 and driver > wedge56 and driver > putter:
+       print("Your favorite club is the driver!")
+elif wood5 > wood4 and wood5 > iron5 and wood5 > iron6 and wood5 > iron7 and wood5 > iron8 and wood5 > iron9 and wood5 > PitchingWedge and wood5 > ApproachWedge and wood5 > wedge56 and wood5 > wedge54 and wood5 > putter:
+       print("Your favorite club is the 5 wood!")
+elif wood4 > iron5 and wood4 > iron6 and wood4 > iron7 and wood4 > iron8 and wood4 > iron9 and wood4 > PitchingWedge and wood4 > ApproachWedge and wood4 > wedge56 and wood4 > wedge54 and wood4 > putter:
+       print("Your favorite club is the 4 wood!") 
+elif iron5 > iron6 and iron5 > iron7 and iron5 > iron8 and iron5 > iron9 and iron5 > PitchingWedge and iron5 > ApproachWedge and iron5 > wedge56 and iron5 > wedge54 and iron5 > putter:
+       print("Your favorite club is the 5 iron!")
