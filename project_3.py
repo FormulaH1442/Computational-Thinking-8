@@ -1,3 +1,4 @@
+#Variables for setup
 putter = 0
 wedge56 = 0
 wedge54= 0
@@ -11,7 +12,7 @@ iron5 = 0
 wood4 = 0
 wood5 = 0
 driver = 0
-
+# Start of quiz
 answer1 = input("Welcome! This test will decide what your favorite golf club is! First, do you like putting, chipping,irons, or Using your woods? ")
 if answer1 == "Putting":
     putter += 1
@@ -39,6 +40,8 @@ elif answer1 == "woods":
         wood4 += 1
     if answer4 == "driver":
         driver += 1
+#Second part
+
 print("Nice choices, lets ask some more questions to really narrow this down")
 answer4 = input("Some more questions to narrow this down, almost done with this quiz do you like par 3s, par 4s, or par 5s?")
 if answer4 == "par 3s "or answer4 == "Par 3s":
@@ -60,6 +63,7 @@ elif answer4 == "par 5s" or answer4 == "Par 5s":
     iron6 += 2
 else:
        print("Please pick either par 3,4, or 5")
+#Ending
 print("Alright, I think we have all the answer we need.")
 if driver > wood5 and driver > wood4 and driver > iron5 and driver > iron6 and driver > iron7 and driver > iron8 and driver > iron9 and driver > PitchingWedge and driver > ApproachWedge and driver > wedge54 and driver > wedge56 and driver > putter:
        print("Your favorite club is the driver!")
